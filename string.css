@@ -1,0 +1,25 @@
+div{
+    color: rgb(0, 0, 0);
+    background-color: rgb(177, 166, 166);
+    text-align: center;
+    font-size: 25pt;
+}
+.cosas{
+    display: flex;
+    background-color:rgb(38, 199, 151);
+    color: rgb(30, 183, 210);
+}
+.izq, .der{
+    background-color: rgb(148, 34, 34);
+    text-align: center;
+    font-size: 25pt;
+    width: 45%;
+    padding: 5%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+<footer 
+
+
+

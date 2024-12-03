@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="preview_image20200912-17072-12ey14i.png" type="image/x-icon">
+    <link rel="stylesheet" href="string.css">
+    <title>URBAN</title>
+</head>
+<body>
+    <div>
+    <h1>PULIDOHATS</h1>
+    <h2>Venta de gorras</h2>
+    <p> La venta de gorras es para conectar con los jovenes y claro que esten a la moda, 
+        pueden aver martcas como new era y js hats dos de las mejores en venta de gorras en mexico.
+         </p>
+         
+         <p> Una de las mejores colaboraciones de gorras tambien las tenemos a la venta y son laas de CT de cantante Natanael Cano.</p>
+        
+         <p> Las mas solicitadas por los amantes de las goras son estas </p>
+        
+<head>
+         <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="carrusel">
+    <div class="imagenes">
+      <div class="slide">
+        <img src="d4.png" alt="100px">
+        <img src="kk..png" alt="100px">
+        <img src="dowload(1).png" alt="100px">
+        <p>Una de las mejores colaboraciones de gorras también las tenemos a la venta y son las de CT de cantante Natanael Cano.</p>
+      </div>
+      <div class="slide">
+        <img src="h8.png" alt="100px">
+        <img src="g7.png" alt="100px">
+        <img src="f6.png" alt="100px">
+        <p>Las más solicitadas por los amantes de las gorras son estas.</p>
+      </div>
+      <div class="slide">
+        <img src="img1.png" alt="100px">
+        <img src="img3.png" alt="100px">
+        <img src="img2.png" alt="100px">
+        <p>¡Las mejores combinaciones de gorras están aquí!</p>
+      </div>
+    </div>
+    <button class="prev" onclick="moverCarrusel(-1)">&#10094;</button>
+    <button class="next" onclick="moverCarrusel(1)">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<script>
+let indiceActual = 0;
+
+function moverCarrusel(n) {
+  const slides = document.querySelectorAll('.slide');
+  const totalSlides = slides.length;
+
+  indiceActual += n;
+
+  if (indiceActual < 0) {
+    indiceActual = totalSlides - 1;
+  } else if (indiceActual >= totalSlides) {
+    indiceActual = 0;
+  }
+
+  const desplazamiento = -indiceActual * 800;  // El ancho del carrusel es de 800px
+  document.querySelector('.imagenes').style.transform = `translateX(${desplazamiento}px)`;
+}
+
+// Función para mover el carrusel automáticamente
+setInterval(() => {
+  moverCarrusel(1);
+}, 3000);  // Cambia cada 3 segundos
+
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+<footer>
+    <p>&copy; Efrain pulido. .</p>
+    <p><a href="pulidoefrain38@gmail.com"> correo electronico</a></p>
+    <a href="https://www.facebook.com/profile.php?id=10008824369962&mibextid=ZbWKwL ">facebook</a>
+    <P> DIRRECCION: CALLE PUEBLA COL.LEAL PUENTE, REYNOSA TAMAULIPAS,MEXICO, TELEFONO:+52 8992582745</P>
+    
+</footer>
